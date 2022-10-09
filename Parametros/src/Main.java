@@ -26,7 +26,7 @@ public class Main {
 
 		for (int i = 0; i < fishes.length; i++) {
 
-			if (fishes[i].getFriendliness() >= fishes[temp].getFriendliness()) {
+			if (fishes[i].getFriendliness() > fishes[temp].getFriendliness()) {
 				temp = i;
 			}
 		}
